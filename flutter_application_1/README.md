@@ -1,16 +1,74 @@
-# flutter_application_1
+# 戒烟助手 (Smoking Quit Assistant)
 
-A new Flutter project.
+一个帮助用户记录和追踪戒烟进程的移动应用。
 
-## Getting Started
+## 应用简介
 
-This project is a starting point for a Flutter application.
+戒烟助手是一款专为戒烟者设计的移动应用，帮助用户记录吸烟行为、追踪戒烟进度、设置戒烟目标，并通过数据可视化展示戒烟趋势。
 
-A few resources to get you started if this is your first Flutter project:
+## 主要功能
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 首页概览
+- 显示今日吸烟次数
+- 快速访问三个主要功能模块
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 记录功能
+- **快速记录**：一键记录每次吸烟行为
+- **备注功能**：可添加吸烟原因或场景备注（如：饭后、压力大、社交场合等）
+- **时间记录**：自动记录吸烟时间
+- **历史查看**：查看所有吸烟记录，按时间倒序排列
+
+### 统计分析
+- **坚持天数**：显示从开始戒烟至今的天数
+- **今日次数**：显示当天吸烟次数
+- **每日目标**：显示设定的每日吸烟次数上限
+- **趋势图表**：近7天吸烟次数柱状图，直观展示戒烟趋势
+- **数据卡片**：清晰展示关键戒烟指标
+
+### 设置管理
+- **每日目标设置**：自定义每日吸烟次数上限
+- **戒烟开始日期**：设置戒烟起始日期，用于计算坚持天数
+- **数据统计**：显示总记录次数
+
+## 使用方法
+
+### 首次使用
+1. 在"设置"页面选择"选择日期"按钮
+2. 设置您的戒烟开始日期
+3. 在"每日目标"中输入您希望达到的每日吸烟次数上限
+4. 点击"保存"按钮
+
+### 日常使用
+1. **记录吸烟**：在"记录"页面点击"记录一次吸烟"按钮
+2. **添加备注**：可选择添加备注说明（如：压力大、饭后等）
+3. **查看进度**：在"统计"页面查看戒烟趋势和关键指标
+4. **调整目标**：在"设置"页面随时修改每日目标
+
+## 使用建议
+
+1. **坚持记录**：每次吸烟后立即记录，保持数据的准确性
+2. **设定合理目标**：根据个人情况设定每日吸烟次数上限
+3. **定期查看统计**：通过趋势图了解戒烟进度
+4. **记录备注**：添加备注帮助分析吸烟触发因素
+
+## 支持平台
+
+- Android 5.0 及以上版本
+- iOS 11.0 及以上版本
+
+## 隐私保护
+
+- 所有数据仅存储在您的设备本地
+- 不会上传到任何服务器
+- 保护您的个人隐私信息
+
+## 应用特色
+
+- **简洁界面**：操作简单，一目了然
+- **数据可视化**：图表展示戒烟趋势，激励持续努力
+- **本地存储**：数据安全，无需网络连接
+- **个性化设置**：根据个人情况调整戒烟目标
+
+---
+
+**开始您的戒烟之旅，让数据见证您的进步！**
