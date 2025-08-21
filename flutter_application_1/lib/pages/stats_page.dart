@@ -22,7 +22,7 @@ class StatsPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Wrap(spacing: 16, runSpacing: 8, children: [
-              _InfoCard(title: '123坚持(天)', value: state.streakDays.toString()),
+              _InfoCard(title: '坚持(天)', value: state.streakDays.toString()),
               _InfoCard(title: '今日次数', value: state.todayCount.toString()),
               _InfoCard(title: '目标(次/日)', value: state.dailyGoal == 0 ? '-' : state.dailyGoal.toString()),
             ]),

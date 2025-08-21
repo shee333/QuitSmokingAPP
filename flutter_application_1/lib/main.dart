@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => QuitState()..load(),
       child: MaterialApp(
-        title: '戒烟助手259',
+        title: '戒烟助手0.1',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 73, 82, 81)),
           useMaterial3: true,
